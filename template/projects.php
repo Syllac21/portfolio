@@ -1,25 +1,48 @@
-<h2 class="text-4xl font-bold mb-4">Mes projets</h2>
+<h2 class="text-4xl font-bold mb-4 mt-24">Mes projets</h2>
 
 <div class="relative w-full">
     <!-- Carrousel Container -->
     <div id="carousel" class="relative overflow-hidden">
         <!-- Slide 1 -->
-        <div class="carousel-slide">
-            <img src="projet1.jpg" alt="Projet 1" class="w-full h-auto">
-            <div class="p-4 bg-white">
-                <h3 class="text-xl font-semibold">Projet 1</h3>
-                <p>Description du projet 1...</p>
+        <div class="carousel-slide flex">
+            <img src="../image/bujangasana.jpg" alt="Position du cobra" class="h-24 w-1/2 h-auto">
+            <div class="w-1/2 p-4 bg-black">
+                <h3 class="text-xl font-semibold">Ma séance de yoga</h3>
+                <p><ul class="mx-4">
+                    <li>objectif :
+                        <p class="mx-4">Ce site est prévue pour permettre à un professeur de yoga de choisir la succession de posture d'une séance en fonction des bienfaits recherchés</p>
+                    </li>
+                    <li>Technologie :
+                        <p class="mx-4">Dans ce projet, j'ai voulu commencer à mettre en application la POO et le MCV</p>
+                        <ul class="mx-8">
+                            <li>Tailwind</li>
+                            <li>PHP</li>
+                            <li>MYSQL</li>
+                            <li>MCV</li>
+                            <li>POO</li>
+                        </ul>
+                        <a href="https://github.com/Syllac21/ma_seance_de_yoga" class="text-blue-400">Lien Githhub</a>
+                    </li>
+                </ul></p>
             </div>
         </div>
         <!-- Slide 2 -->
-        <div class="carousel-slide hidden">
-            <img src="projet2.jpg" alt="Projet 2" class="w-full h-auto">
-            <div class="p-4 bg-white">
-                <h3 class="text-xl font-semibold">Projet 2</h3>
-                <p>Description du projet 2...</p>
+        <div class="carousel-slide flex">
+            <img src="../image/bamboo-161448_1280.png" alt="Plan de bambou" class="h-24 w-1/2 h-auto">
+            <div class="w-1/2 p-4 bg-black">
+                <h3 class="text-xl font-semibold">Chifoumi</h3>
+                <p><ul class="mx-4">
+                    <li>objectif :
+                        <p class="mx-4">Jeu Pierre Feuille Ciseaux</p>
+                    </li>
+                    <li>Technologie :
+                        <p class="mx-4">Le but de ce projet était de me familiariser avec Java Script tout en utilisant HTML et CSS</p>
+                        <a href="https://github.com/Syllac21/portfolio" class="text-blue-400">Lien Githhub</a>
+                    </li>
+                </ul></p>
             </div>
-        </div>
-        <!-- Ajoutez d'autres slides ici -->
+x
+        <!-- ajouter des slides -->
     </div>
 
     <!-- Navigation -->
