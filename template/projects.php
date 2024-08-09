@@ -4,8 +4,8 @@
     <!-- Carrousel Container -->
     <div id="carousel" class="relative overflow-hidden">
         <!-- Slide 1 -->
-        <div class="carousel-slide flex">
-            <img src="../image/bujangasana.jpg" alt="Position du cobra" class="h-24 w-1/2 h-auto">
+        <div class="carousel-slide flex h-94">
+            <img src="../image/bujangasana.jpg" alt="Position du cobra" class="w-1/2 h-auto">
             <div class="w-1/2 p-4 bg-black">
                 <h3 class="text-xl font-semibold">Ma séance de yoga</h3>
                 <p><ul class="mx-4">
@@ -27,7 +27,7 @@
             </div>
         </div>
         <!-- Slide 2 -->
-        <div class="carousel-slide flex">
+        <div class="carousel-slide flex h 94">
             <img src="../image/bamboo-161448_1280.png" alt="Plan de bambou" class="h-24 w-1/2 h-auto">
             <div class="w-1/2 p-4 bg-black">
                 <h3 class="text-xl font-semibold">Chifoumi</h3>
