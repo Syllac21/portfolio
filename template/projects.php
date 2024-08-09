@@ -1,3 +1,4 @@
+
 <h2 class="text-4xl font-bold mb-4 mt-24">Mes projets</h2>
 
 <div class="relative w-full">
@@ -5,15 +6,15 @@
     <div id="carousel" class="relative overflow-hidden">
         <!-- Slide 1 -->
         <div class="carousel-slide flex h-94">
-            <img src="../image/bujangasana.jpg" alt="Position du cobra" class="w-1/2 h-auto">
-            <div class="w-1/2 p-4 bg-black">
+            <img src="../image/bujangasana.jpg" alt="Position du cobra" class="w-1/2 h-96">
+            <div class="w-1/2 ml-4 bg-black">
                 <h3 class="text-xl font-semibold">Ma séance de yoga</h3>
                 <p><ul class="mx-4">
                     <li>objectif :
-                        <p class="mx-4">Ce site est prévue pour permettre à un professeur de yoga de choisir la succession de posture d'une séance en fonction des bienfaits recherchés</p>
+                        <p class="ml-4">Ce site est prévu pour permettre à un professeur de yoga de choisir la succession de posture d'une séance en fonction des bienfaits recherchés</p>
                     </li>
                     <li>Technologie :
-                        <p class="mx-4">Dans ce projet, j'ai voulu commencer à mettre en application la POO et le MCV</p>
+                        <p class="mx-4 pr-8">Dans ce projet, j'ai voulu commencer à mettre en application la POO et le MCV</p>
                         <ul class="mx-8">
                             <li>Tailwind</li>
                             <li>PHP</li>
@@ -27,8 +28,8 @@
             </div>
         </div>
         <!-- Slide 2 -->
-        <div class="carousel-slide flex h 94">
-            <img src="../image/bamboo-161448_1280.png" alt="Plan de bambou" class="h-24 w-1/2 h-auto">
+        <div class="carousel-slide flex h 94 hidden">
+            <img src="../image/bamboo-161448_1280.png" alt="Plan de bambou" class="h-96 w-1/2">
             <div class="w-1/2 p-4 bg-black">
                 <h3 class="text-xl font-semibold">Chifoumi</h3>
                 <p><ul class="mx-4">
@@ -37,11 +38,27 @@
                     </li>
                     <li>Technologie :
                         <p class="mx-4">Le but de ce projet était de me familiariser avec Java Script tout en utilisant HTML et CSS</p>
-                        <a href="https://github.com/Syllac21/portfolio" class="text-blue-400">Lien Githhub</a>
+                        <a href="https://github.com/Syllac21/jeu-chifoumi" class="text-blue-400">Lien Githhub</a>
                     </li>
                 </ul></p>
             </div>
-x
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-slide flex h 94 hidden">
+            <img src="../image/sar-tambour.jpg" alt="Plan de bambou" class="h-96 w-1/2">
+            <div class="w-1/2 p-4 bg-black">
+                <h3 class="text-xl font-semibold">Mon site de plongée</h3>
+                <p><ul class="mx-4">
+                    <li>objectif :
+                        <p class="mx-4">Suivie des plongées</p>
+                    </li>
+                    <li>Technologie :
+                        <p class="mx-4">Le but de ce projet est de pouvoir enregistrer ses spots de plongée et de pouvoir revoir les différents poissons que l'on a vu.</p>
+                        <a href="https://github.com/Syllac21/plongee_mvc" class="text-blue-400">Lien Githhub</a>
+                    </li>
+                </ul></p>
+            </div>
+        </div>
         <!-- ajouter des slides -->
     </div>
 
