@@ -12,14 +12,14 @@
     <?php include_once('./includes/header.php');?>
 
     <!-- Main Content -->
-    <div class="container mx-auto mt-10 flex">
+    <div class="container mx-auto mt-10 flex flex-col md:flex-row">
         <!-- Image Section -->
-        <div class="w-1/2">
-            <img src="./image/Dragon.jpg" alt="Image de présentation" class="w-full h-auto">
+        <div class="w-full md:w-1/2 mb-6 md:mb-0 flex justify-center">
+            <img src="./image/Dragon.jpg" alt="Image de présentation" class="w-full md:w-auto h-auto">
         </div>
 
         <!-- Portfolio Section -->
-        <div class="w-1/2 bg-black text-white p-8 shadow-lg">
+        <div class="w-full md:w-1/2 bg-black text-white p-8 shadow-lg">
             <?php
                 $page = isset($_GET['page']) ? $_GET['page'] : 'about';
                 switch($page) {
