@@ -1,4 +1,4 @@
-<h2 class="text-4xl font-bold mb-4 mt-24">Mes projets</h2>
+<h2 class="text-4xl font-bold mt-8">Mes projets</h2>
 
 <div class="relative w-full">
     <!-- Cartes projet -->
@@ -39,6 +39,19 @@
                 <p class="text-gray-200">
                     <span class="font-bold">Détails :</span> Utilisation d'API. Premier projet MYSQL.
                     <a href="https://github.com/Syllac21/plongee_mvc" class="text-blue-300 hover:underline">Lien GitHub</a>
+                </p>
+            </div>
+        </article>
+
+        <!-- Quatrième carte -->   
+        <article class="project-card rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+        style="background: radial-gradient(circle, #15BFA0 0%, #020726 100%);" data-title="Memory" data-description="Développé en HTML, CSS et JavaScript" data-image="/image/memory.jpg">
+            <img class="w-full object-cover h-48" src="/image/memory.jpg" alt="jeux de cartes" />
+            <div class="p-6">
+                <h2 class="text-2xl mb-2 text-white font-semibold">Memory</h2>
+                <p class="text-gray-200">
+                    <span class="font-bold">Détails :</span> Développé en HTML, CSS et JavaScript
+                    <a href="https://github.com/Syllac21/jeuxpaires" class="text-blue-300 hover:underline">Lien GitHub</a>
                 </p>
             </div>
         </article>
