@@ -12,11 +12,14 @@
     <?php include_once('./includes/header.php');?>
 
     <!-- Main Content -->
-    <div class="container mx-auto mt-10 flex flex-col md:flex-row">
+    <section class="container mx-auto mt-10 flex flex-col md:flex-row">
         <!-- Image Section -->
-        <div class="w-full md:w-1/2 mb-6 md:mb-0 flex justify-center">
-            <img src="./image/Dragon.jpg" alt="Image de présentation" class="w-full md:w-auto h-auto">
-        </div>
+        <article class="w-full md:w-1/2 mb-6 md:mb-0 flex flex-col justify-center container">
+           
+            <aside class="flex items-center justify-center h-screen">
+                <img src="./image/Dragon.jpg" alt="Image de présentation" class="w-full md:w-auto h-auto">
+            </aside>
+        </article>
 
         <!-- Portfolio Section -->
         <div class="w-full md:w-1/2 bg-black text-white p-8 shadow-lg">
@@ -40,7 +43,7 @@
                 }
             ?>
         </div>
-    </div>
+    </section>
 
 </body>
 </html>
