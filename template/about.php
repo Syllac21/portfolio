@@ -5,8 +5,5 @@
     <p class="mx-8">Passionné depuis toujours par le monde de l'informatique et notamment du code, je suis actuellement en reconversion professionnelle pour devenir <span class="text-2xl" >développeur</span> web.</p>
     <p class="mx-8">J'ai commencé à me former en autodidacte et sur tailwind, php, mysql. Je suis actuellement en formation pour passer le titre développeur web et web mobile.</p>
     
-    <address class="text-white w-full col-span-full mt-10">
-                <h2 class="text-2xl">Sylvain Lacroix</h2>
-                <p>mail : svn-lacroix@protonmail.com</p>
-            </address>
+    
 </section>
